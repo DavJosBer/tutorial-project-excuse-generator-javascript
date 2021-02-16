@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excuse Generator</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        a{
+            background-color: aqua;
+            padding: 1rem;
+            cursor: pointer;
+            color: orangered;
+        }
+        div{
+            margin: 2rem 0;
+        }
+        p{
+            font-size: 2rem;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            margin: 2rem;
+            padding: 1rem;
+            border: 1px dashed aqua;
+            letter-spacing: 2px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <a id="excuseGenerate" onclick="generate()">Generar Excusa</a>
+            <p id="excuseText"></p>
+        </div>
+    <script src="main.js"></script>      
+</body>
+</html>
